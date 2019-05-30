@@ -1,0 +1,230 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\PomeasDual.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Pomeas Dual.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_POMEASDUAL_DIALOG DIALOGEX 0, 0, 343, 354
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Pomeas Dual"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Exit",IDCANCEL,286,7,50,16
+    COMBOBOX        IDC_PORTSCOMBOX,22,71,91,96,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Ports",IDC_STATIC,7,55,121,40
+    GROUPBOX        "Motion",IDC_STATIC,7,101,329,246
+    PUSHBUTTON      "Home",IDC_HOME,26,135,50,14
+    PUSHBUTTON      "Limit",IDC_LIMIT,78,135,50,14
+    PUSHBUTTON      "Reset",IDC_RESET,129,156,50,14
+    PUSHBUTTON      "Stop",IDC_STOP,129,135,50,14
+    PUSHBUTTON      "Up",IDC_UP,26,156,50,14
+    PUSHBUTTON      "Down",IDC_DOWN,77,156,50,14
+    PUSHBUTTON      "Destination",IDC_DESTINATION,26,179,50,14
+    EDITTEXT        IDC_DESTINATIONEDIT,85,179,70,14,ES_AUTOHSCROLL
+    GROUPBOX        "Save Current Location",IDC_STATIC,18,207,311,40
+    GROUPBOX        "Goto Saved Location",IDC_STATIC,18,250,311,88
+    PUSHBUTTON      "1",IDC_Save1,28,223,21,14
+    PUSHBUTTON      "2",IDC_Save2,51,223,21,14
+    PUSHBUTTON      "3",IDC_Save3,74,223,21,14
+    PUSHBUTTON      "4",IDC_Save4,97,223,21,14
+    PUSHBUTTON      "5",IDC_Save5,120,223,21,14
+    PUSHBUTTON      "6",IDC_Save6,143,223,21,14
+    PUSHBUTTON      "7",IDC_Save7,166,223,21,14
+    PUSHBUTTON      "8",IDC_Save8,189,223,21,14
+    PUSHBUTTON      "9",IDC_Save9,212,223,21,14
+    PUSHBUTTON      "10",IDC_Save10,235,223,21,14
+    PUSHBUTTON      "1",IDC_Goto1,26,314,21,14
+    PUSHBUTTON      "2",IDC_Goto2,49,314,21,14
+    PUSHBUTTON      "3",IDC_Goto3,73,314,21,14
+    PUSHBUTTON      "4",IDC_Goto4,97,314,21,14
+    PUSHBUTTON      "5",IDC_Goto5,121,314,21,14
+    PUSHBUTTON      "6",IDC_Goto6,145,314,21,14
+    PUSHBUTTON      "7",IDC_Goto7,169,314,21,14
+    PUSHBUTTON      "8",IDC_Goto8,193,314,21,14
+    PUSHBUTTON      "9",IDC_Goto9,217,314,21,14
+    PUSHBUTTON      "10",IDC_Goto10,241,314,21,14
+    CONTROL         "1",IDC_SELECTGOTO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,27,303,20,10
+    CONTROL         "2",IDC_SELECTGOTO2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,51,303,20,10
+    CONTROL         "3",IDC_SELECTGOTO3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,74,303,20,10
+    CONTROL         "4",IDC_SELECTGOTO4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,98,303,20,10
+    CONTROL         "5",IDC_SELECTGOTO5,"Button",BS_AUTORADIOBUTTON | WS_GROUP,121,303,20,10
+    CONTROL         "6",IDC_SELECTGOTO6,"Button",BS_AUTORADIOBUTTON | WS_GROUP,145,303,20,10
+    CONTROL         "7",IDC_SELECTGOTO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,168,303,20,10
+    CONTROL         "8",IDC_SELECTGOTO8,"Button",BS_AUTORADIOBUTTON | WS_GROUP,191,303,20,10
+    CONTROL         "9",IDC_SELECTGOTO9,"Button",BS_AUTORADIOBUTTON | WS_GROUP,216,303,20,10
+    CONTROL         "10",IDC_SELECTGOTO10,"Button",BS_AUTORADIOBUTTON | WS_GROUP,239,303,24,10
+    PUSHBUTTON      "Auto Move",IDC_AUTORUN,267,301,50,14,NOT WS_VISIBLE
+    GROUPBOX        "Control",IDC_STATIC,17,115,172,87
+    GROUPBOX        "Pos",IDC_STATIC,193,115,136,87
+    PUSHBUTTON      "Get Pos",IDC_READSTATE,212,127,50,14
+    PUSHBUTTON      "Stop",IDC_STOPREADSTATE,264,127,50,14
+    CTEXT           "STATE",IDC_STATE,214,147,97,21,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Stop Move",IDC_STOPAUTORUN,267,317,50,14,NOT WS_VISIBLE
+    CTEXT           "Pomeas",IDC_TITLEC,7,7,260,44,SS_CENTERIMAGE
+    PUSHBUTTON      "Open",IDC_OPENSAVEBTN,265,215,50,14
+    PUSHBUTTON      "Close",IDC_CLOSESAVEBTN,266,229,50,14
+    LTEXT           "Count:",IDC_STATIC,26,270,23,8,NOT WS_VISIBLE
+    LTEXT           "Index:",IDC_STATIC,105,270,22,8,NOT WS_VISIBLE
+    LTEXT           "Step:",IDC_STATIC,181,270,18,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_AUTORUNCOUNT,51,270,46,14,ES_CENTER | ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_AUTORUNINDEX,129,270,46,14,ES_CENTER | ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_AUTORUNSTEP,202,270,46,14,ES_CENTER | ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Wait:",IDC_STATIC,255,270,18,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_AUTORUNCOUNT2,276,270,46,14,ES_CENTER | ES_AUTOHSCROLL | NOT WS_VISIBLE
+    GROUPBOX        "Max-Length",IDC_STATIC,135,55,201,40
+    PUSHBUTTON      "Get Max Length",IDC_GETMAXLENGTH,151,71,60,14
+    CTEXT           "",IDC_STATE2,224,67,97,21,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    CTEXT           "STATE",IDC_MOTIONSTATE,214,173,97,21,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Pomeas"
+            VALUE "FileDescription", "Camera lens"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Pomeas Dual.exe"
+            VALUE "LegalCopyright", " (c) Pomeas.  All rights reserved."
+            VALUE "OriginalFilename", "Pomeas Dual.exe"
+            VALUE "ProductName", "Camera lens"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_POMEASDUAL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 347
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\PomeasDual.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
